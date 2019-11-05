@@ -1,0 +1,19 @@
+<div class="ex-basic-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+              <div id="breadcrumbs">
+{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+<a href="/">Home</a>
+{% for crumb in crumbs offset: 1 %}
+{% if forloop.last %}
+  / {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+{% else %}
+  / <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+{% endif %}
+{% endfor %}
+</div>
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of ex-basic-1 -->

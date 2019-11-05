@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "This is a test"
+categories: jekyll update
+comments: True
+---
+
+This is a test post.
+
+Thank you.
