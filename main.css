@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #352203; /* Your desired color */
+  min-height: 100px;
+}
+.brownbg
+{
+  background-color: #352203;  
+}
+
+.fonting {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 850px) {
+  .fonting {
+    font-size: 20px; /* Smaller font size for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .fonting {
+    font-size: 14px; /* Smaller font size for smaller screens */
+  }
+}
