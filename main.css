@@ -22,3 +22,9 @@
     font-size: 14px; /* Smaller font size for smaller screens */
   }
 }
+
+@media only screen and (max-width: 300px) {
+  .fonting {
+    font-size: 12px; /* Smaller font size for smaller screens */
+  }
+}
