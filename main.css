@@ -11,20 +11,28 @@
     font-size: 30px;
 }
 
+.withlove {
+    padding-top: 50px;
+}
+
 @media only screen and (max-width: 850px) {
   .fonting {
     font-size: 20px; /* Smaller font size for smaller screens */
   }
+
+  .withlove {
+    padding-top: 20px;
+}
 }
 
 @media only screen and (max-width: 600px) {
   .fonting {
     font-size: 14px; /* Smaller font size for smaller screens */
   }
-}
-
-@media only screen and (max-width: 450px) {
-  .fonting {
-    font-size: 10px; /* Smaller font size for smaller screens */
+  h1 {
+    font-size: 20px;
   }
+  .withlove {
+    padding-top: 5px;
+}
 }
