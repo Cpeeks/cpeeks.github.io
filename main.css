@@ -25,6 +25,6 @@
 
 @media only screen and (max-width: 450px) {
   .fonting {
-    font-size: 12px; /* Smaller font size for smaller screens */
+    font-size: 10px; /* Smaller font size for smaller screens */
   }
 }
