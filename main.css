@@ -1,3 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap');
+
+body {
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1, h2 {
+  font-family: 'Auteur', cursive;
+}
+
+.darktext {
+   color: #331F01;
+}
+
+.flower-col {
+  position: relative;
+  min-width: 100px;
+  min-height: 100%;
+  flex-shrink: 0;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+@media (max-width: 768px) {
+  .flower-col {
+    min-height: 400px;
+  }
+}
+
+.faq-line {
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 1.5rem;
+}
+
+.faq-question {
+  font-weight: 700;
+  display: inline;
+  margin-right: 0.5ch;
+}
+
+
+.schedule-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 2.2rem;
+  color: #7B5C40; /* Warm taupe-like tone similar to the image */
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.schedule-title .word-flourish {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .flex-fill {
+    min-width: 150px;
+  }
+}
+
 .navbar {
   background-color: #331F01; /* Your desired color */
   min-height: 100px;
@@ -11,9 +84,26 @@
     font-size: 30px;
 }
 
-.withlove {
-    padding-top: 50px;
+.rsvp-flower-section {
+  background-image: url('images/flower_rsvp_clean.png'); /* Ensure path matches your file location */
 }
+
+.welcome-section {
+  background-image: url('images/flower_welcome_clean.png'); 
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+}
+
+
+.bgbg {
+  background-repeat: no-repeat;
+  background-position: left-center;
+  background-size: auto 80%;
+  background-attachment: scroll;
+  min-height: 400px;
+}
+
 
 @media only screen and (max-width: 850px) {
   .fonting {
@@ -23,16 +113,54 @@
   .withlove {
     padding-top: 20px;
 }
+
+.bgbg {
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto 80%;
+  background-attachment: scroll;
+  min-height: 300px;
+}
+}
+
+
+
+/* Flower image */
+.flower-img {
+  max-width: 100%;
+  z-index: 0;
+}
+
+/* Medium screens and up */
+@media (min-width: 601px) {
+  .flower-col {
+    width: 120px;
+  }
+}
+
+/* Large desktop screens */
+@media (min-width: 992px) {
+  .flower-col {
+    width: 150px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .fonting {
     font-size: 15px; /* Smaller font size for smaller screens */
   }
-  h1 {
-    font-size: 20px;
-  }
+
   .withlove {
     padding-top: 5px;
 }
+
+
+    .bgbg {
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto 70%;
+  background-attachment: scroll;
+  min-height: 300px;
 }
+}
+
