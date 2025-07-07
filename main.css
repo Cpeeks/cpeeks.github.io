@@ -36,8 +36,6 @@ h1, h2 {
   min-width: 100px;
   min-height: 100%;
   flex-shrink: 0;
-  padding-right: 25px;
-  padding-left: 25px;
 }
 
 @media (max-width: 768px) {
@@ -154,6 +152,9 @@ h5 {
 .flower-img {
   max-width: 70px;
 }
+  .flower-col {
+    min-width: 40px;
+  }
 
 }
 /* Medium screens and up */
