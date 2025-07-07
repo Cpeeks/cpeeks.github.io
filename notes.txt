@@ -52,3 +52,63 @@ Cory & Sarah</h1>
     </h3>
   </div>
 </div>
+
+
+
+<section class="py-5" style="background-color: #FAF6ED; overflow-x: hidden;">
+  <div class="container-fluid px-0">
+
+    <!-- Title Row (above columns) -->
+    <div class="d-flex flex-column align-items-center justify-content-center mb-4 px-3">
+      <h1 class="schedule-title">
+        <span class="word-main">SCHEDULE</span><br>
+        <span class="word-flourish">of</span><br>
+        <span class="word-main">EVENTS</span>
+      </h1>
+    </div>
+
+    <!-- 3 Columns Row -->
+    <div class="d-flex flex-row justify-content-between align-items-stretch flex-nowrap text-center">
+      
+      <!-- Left Column -->
+      <div class="flex-fill d-flex flex-column justify-content-center align-items-center px-3 text-center" style="min-width: 180px;">
+        <div>
+          <h5>Welcome Party</h5>
+          <p>Friday, October 4<br>6:00 PM<br>Beachside Bonfire</p>
+
+          <h5>Rehearsal Dinner</h5>
+          <p>Saturday, October 5<br>7:00 PM<br>La Terraza</p>
+        </div>
+      </div>
+
+      <!-- Center Column (Flower only) -->
+      <div class="flex-fill d-flex flex-column align-items-center justify-content-center px-3" style="min-width: 70px;">
+        <img src="images/schedule_flower.png" alt="Flower Illustration" class="img-fluid mt-3" style="max-width: 200px;">
+      </div>
+
+      <!-- Right Column -->
+      <div class="flex-fill d-flex flex-column justify-content-center align-items-center px-3 text-center" style="min-width: 180px;">
+        <div>
+          <h5>The Ceremony</h5>
+          <p>Sunday, October 6<br>4:00 PM<br>Botanical Gardens</p>
+
+          <h5>Reception</h5>
+          <p>Sunday, October 6<br>6:00 PM<br>Sunset Pavilion</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="rsvp-flower-section bgbg d-flex align-items-center py-5" style="background-color: #fdf8f0;">
+  <div class="container">
+    <div class="row">
+    <div style="text-align: center;">
+          <h3 class="darktext mx-auto fonting">RSVP</h3>
+          </div>
+          </div>
+          
+  </div>
+</section>

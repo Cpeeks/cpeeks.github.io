@@ -14,7 +14,6 @@
 <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <body>
         <!-- Responsive navbar-->
           
             <div class="py-3 brownbg">
@@ -26,10 +25,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="schedule.html">Schedule</a></li>
                         <li class="nav-item"><a class="nav-link" href="travel.html">Travel</a></li>
                         <li class="nav-item"><a class="nav-link" href="registry.html">Registry</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="faq.html">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
                     </ul>
                 </div>
                 
@@ -38,47 +37,51 @@
         </nav>
         <!-- Header - set the background image for the header in the line below-->
 
-        <section class="py-0" style="background-color: #fdf8f0;">
-  <div class="container-fluid px-0">
-    <div class="d-flex flex-row text-center align-items-stretch" style="width: 100%;">
+        <section class="py-5 position-relative" style="background-color: #fffaf3; font-family: 'Libre Baskerville', serif;">
+  <!-- Left Leaf -->
+  <img src="images/leaf-left.png" alt="Left Leaf"
+       class="position-absolute top-0 start-0" style="max-height: 300px; z-index: 0;">
+
+  <div class="container" style="position: relative; z-index: 1;">
+    <!-- Title -->
+    <h1 class="text-center" style="font-family: 'Playfair Display', serif; font-size: 3rem; color: #7B5C40; margin-bottom: 2rem;">
       
-      <!-- Left Flower -->
-      <div class="flower-col position-relative">
-        <img src="images/faqleftflower.png" alt="Left Flower"
-             class="img-fluid position-absolute top-0 start-0 flower-img">
+      SCHEDULE<br><span style="font-style: italic; font-size: 3rem;">of </span>&nbsp; EVENTS
+    </h1>
+
+    <div class="row justify-content-center">
+      <!-- Left Column: Nov 8 -->
+      <div class="col-md-6 text-center mb-5">
+        <h3 style="font-style: italic;">November 8th, 2025</h3>
+        <p class="mt-4 px-3">
+          We are planning a welcome party in the afternoon. We will have more details to come on it closer to the wedding date.
+        </p>
+        <p class="mt-4 px-3">
+          Please check back closer to the wedding for more information.
+        </p>
       </div>
 
-      <!-- Center Text -->
-      <div class="flex-grow-1 px-3 py-5 px-3 px-md-5 darktext">
-     <h1> FAQ </h1>
-        <p class="faq-line">
-  <span class="faq-question">Do you have room blocks or hotel recommendations?</span>
-  Yes! We’ve reserved a block at the Viceroy. For other nearby hotels, please see our Travel page.
-</p>
-        <p class="faq-line">
-  <span class="faq-question">Are children welcome?</span>
-  Our celebration is adults-only. We kindly ask you to arrange childcare so you can relax and enjoy the day!
-</p>
-        <p class="faq-line">
-  <span class="faq-question">Will transportation be provided?</span>
-  Absolutely. Round-trip shuttle service will run from the designated pickup spot to the ceremony venue, then back to the reception later on. (Watch the Travel section for pickup times and location.)
-</p>
-        <p class="faq-line">
-  <span class="faq-question">Can I bring a plus-one?</span>
-  Only guests whose invitations say “+1” may bring a guest.
-</p>
-        <p class="faq-line">
-  <span class="faq-question">What should I wear?</span>
-  Black tie optional—dress to impress in whatever makes you feel your absolute best! Reference photos below! 
-</p>
-
-      </div>
-
-
-<!-- Right Flower -->
-      <div class="flower-col position-relative">
-        <img src="images/faqflowerright.png" alt="Right Flower"
-             class="position-absolute bottom-0 end-0 img-fluid flower-img" style="max-width: 150px;">
+      <!-- Right Column: Nov 9 -->
+      <div class="col-md-5 text-center mb-5">
+        <h3 style="font-style: italic;">November 9th, 2025</h3>
+        <div class="mt-4">
+          <div class="d-flex justify-content-between border-bottom py-2 px-3">
+            <span>3:30pm</span>
+            <span>Ceremony</span>
+          </div>
+          <div class="d-flex justify-content-between border-bottom py-2 px-3">
+            <span>4:00pm</span>
+            <span>Cocktail Hour</span>
+          </div>
+          <div class="d-flex justify-content-between border-bottom py-2 px-3">
+            <span>5:15pm</span>
+            <span>Reception</span>
+          </div>
+          <div class="d-flex justify-content-between py-2 px-3">
+            <span>11:00pm</span>
+            <span>Reception Ends</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>

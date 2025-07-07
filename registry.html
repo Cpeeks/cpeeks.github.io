@@ -14,7 +14,6 @@
 <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <body>
         <!-- Responsive navbar-->
           
             <div class="py-3 brownbg">
@@ -28,8 +27,8 @@
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
                         <li class="nav-item"><a class="nav-link" href="travel.html">Travel</a></li>
-                        <li class="nav-item"><a class="nav-link" href="registry.html">Registry</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="faq.html">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="registry.html">Registry</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
                     </ul>
                 </div>
                 
@@ -38,50 +37,37 @@
         </nav>
         <!-- Header - set the background image for the header in the line below-->
 
-        <section class="py-0" style="background-color: #fdf8f0;">
-  <div class="container-fluid px-0">
-    <div class="d-flex flex-row text-center align-items-stretch" style="width: 100%;">
+
+<section class="py-0 position-relative" style="background-color: #fdf8f0;">
+  <div class="container-fluid px-0 position-relative" style="z-index: 1; min-height:400px;">
+    <div class="d-flex flex-row text-center align-items-stretch w-100 pt-5">
       
-      <!-- Left Flower -->
-      <div class="flower-col position-relative">
-        <img src="images/faqleftflower.png" alt="Left Flower"
-             class="img-fluid position-absolute top-0 start-0 flower-img">
-      </div>
+      <!-- Left Flower (Empty or placeholder) -->
+      <div class="flower-col position-relative d-none d-md-block" style="width: 150px;"></div>
 
       <!-- Center Text -->
-      <div class="flex-grow-1 px-3 py-5 px-3 px-md-5 darktext">
-     <h1> FAQ </h1>
-        <p class="faq-line">
-  <span class="faq-question">Do you have room blocks or hotel recommendations?</span>
-  Yes! We’ve reserved a block at the Viceroy. For other nearby hotels, please see our Travel page.
-</p>
-        <p class="faq-line">
-  <span class="faq-question">Are children welcome?</span>
-  Our celebration is adults-only. We kindly ask you to arrange childcare so you can relax and enjoy the day!
-</p>
-        <p class="faq-line">
-  <span class="faq-question">Will transportation be provided?</span>
-  Absolutely. Round-trip shuttle service will run from the designated pickup spot to the ceremony venue, then back to the reception later on. (Watch the Travel section for pickup times and location.)
-</p>
-        <p class="faq-line">
-  <span class="faq-question">Can I bring a plus-one?</span>
-  Only guests whose invitations say “+1” may bring a guest.
-</p>
-        <p class="faq-line">
-  <span class="faq-question">What should I wear?</span>
-  Black tie optional—dress to impress in whatever makes you feel your absolute best! Reference photos below! 
-</p>
-
+      <div class="flex-grow-1 px-5 py-5">
+        <p class="fs-5">
+          We realize you’re already making the trip to Pacific Palisades to celebrate
+          with us, and that’s truly the greatest gift we could ask for. However, if you do
+          wish to celebrate with a gift, we are registered at—we’ve put together a
+          registry below of a few things that will help us settle into married life. Thank
+          you for all the love, and for joining us on this adventure!
+        </p>
+        <a href="https://registry.theknot.com/cory-picow-sarah-tatum-november-2025-fl/71929215" class="btn btn-lg px-5 py-2 mt-4 text-light" style="background-color: #5c3b2e;">
+          REGISTRY
+        </a>
       </div>
 
-
-<!-- Right Flower -->
-      <div class="flower-col position-relative">
-        <img src="images/faqflowerright.png" alt="Right Flower"
-             class="position-absolute bottom-0 end-0 img-fluid flower-img" style="max-width: 150px;">
-      </div>
+      <!-- Right Flower (spacer only) -->
+      <div class="flower-col position-relative d-none d-md-block" style="width: 150px;"></div>
     </div>
   </div>
+
+  <!-- Background Flower Image Behind Text -->
+  <img src="images/RegFlower.png" alt="Right Flower"
+       class="position-absolute top-50 end-0 translate-middle-y img-fluid"
+       style="max-width: 200px; opacity: 0.9; z-index: 0; pointer-events: none;">
 </section>
 
 
