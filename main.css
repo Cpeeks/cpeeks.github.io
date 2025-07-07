@@ -146,10 +146,16 @@ h5 {
 
 /* Flower image */
 .flower-img {
-  max-width: 100%;
+  max-width: 120px;
   z-index: 0;
 }
+@media only screen and (max-width: 500px) {
+  
+.flower-img {
+  max-width: 70px;
+}
 
+}
 /* Medium screens and up */
 @media (min-width: 601px) {
   .flower-col {
