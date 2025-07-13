@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap');
 
 body {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville";
   background-color: #2d1d00; /* Replace with your desired color */
 }
 
@@ -17,18 +17,35 @@ h1, h2 {
    color: #f2dbbc;
 }
 
+.mobileheader{
+    display:none;
+}
+
+.sloop {
+    font-family: "Sloop Script";
+}
+
 .italianno {
   font-family: "Italianno", cursive;
   font-weight: 400;
   font-style: normal;
 }
 
+.tanfont {
+     font-family: "Tan Aegean";
+   }
+
 .libre {
-    font-family: 'Libre Baskerville', serif!important;
+    font-family: 'Libre Baskerville'!important;
 }
 
 .navbar {
     min-height: 1px!important;
+}
+
+.leftleaf {
+    max-height:500px;
+    z-index: 0
 }
 
 .flower-col {
@@ -86,6 +103,7 @@ h5 {
   .flex-fill {
     min-width: 150px;
   }
+
 }
 
 .navbar {
@@ -138,10 +156,12 @@ h5 {
   background-attachment: scroll;
   min-height: 300px;
 }
+
+  .leftleaf {
+    max-height:300px;
 }
 
-
-
+}
 /* Flower image */
 .flower-img {
   max-width: 120px;
@@ -155,6 +175,10 @@ h5 {
   .flower-col {
     min-width: 40px;
   }
+
+    .leftleaf {
+    max-height:150px;
+}
 
 }
 /* Medium screens and up */
@@ -170,7 +194,14 @@ h5 {
     width: 150px;
   }
 }
-
+@media (max-width: 992px) {
+    .mobileheader{
+    display:block;
+}
+    .regularheader {
+        display:none;
+    }
+}
 @media only screen and (max-width: 600px) {
   .fonting {
     font-size: 15px; /* Smaller font size for smaller screens */
