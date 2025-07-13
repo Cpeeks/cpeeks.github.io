@@ -17,6 +17,10 @@ h1, h2 {
    color: #f2dbbc;
 }
 
+.nav-link {
+    color: #f2dbbc;
+}
+
 .mobileheader{
     display:none;
 }
